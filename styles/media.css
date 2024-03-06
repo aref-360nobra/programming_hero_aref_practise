@@ -1,0 +1,85 @@
+nav > ul {
+  text-align: center;
+}
+
+header > nav > ul > li {
+  display: inline;
+  padding: 100px;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 36px;
+}
+time,
+header > nav > ul > li > a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2bc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header > nav > ul > li > a,
+p {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-weight: 750;
+}
+
+video,
+img {
+  border-radius: 25px;
+  border: 3px solid #2bc;
+}
+audio {
+  border: 3px solid #2bc;
+  border-radius: 50px;
+}
+
+form,
+label {
+  display: block;
+}
+
+label,
+input {
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 250px;
+  border: 2px solid #2bc;
+  border-radius: 25px;
+  outline: none;
+}
+label {
+  border-radius: 25px;
+}
+
+input[placeholder] {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+input[placeholder="Enter your Registration No."] {
+  letter-spacing: 0;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  margin: 50px;
+  outline: none;
+  border: 2px solid #2bc;
+  border-radius: 18px;
+  width: 100px;
+}
