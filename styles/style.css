@@ -14,9 +14,7 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
-figure {
-  /* width: 500px; */
-}
+
 figure > img {
   border-radius: 18px;
   width: 100%;
