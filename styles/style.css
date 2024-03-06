@@ -1,13 +1,12 @@
-div {
-    background-color: tomato;
-    padding: 10px;
-    border-radius: 25px;
-    margin-bottom: 20px;
-    font-family: "Comic Neue", cursive;
-    font-weight: 400;
-    font-style: normal;
+header > nav > ul > li {
+  display: inline;
+  padding-left: 10px;
 }
-
-img {
-    border-radius: 25pt;
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: #22bbcc;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
 }
