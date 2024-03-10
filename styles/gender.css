@@ -1,0 +1,63 @@
+nav > ul {
+  text-align: center;
+}
+
+header > nav > ul > li {
+  display: inline;
+  padding: 100px;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 36px;
+}
+time,
+header > nav > ul > li > a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2bc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header > nav > ul > li > a,
+p {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-weight: 750;
+}
+
+label {
+  display: block;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5px;
+}
+
+fieldset {
+  width: 45%;
+}
+
+button[type="reset"],
+button[type="submit"] {
+  margin-left: 50px;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid #2bc;
+  border-radius: 18px;
+  background-color: #f0f0f0;
+}
